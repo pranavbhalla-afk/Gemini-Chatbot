@@ -1,0 +1,36 @@
+Instructions:
+
+1. Save this file as requirements.txt in your project root.
+
+2. Install all dependencies using:
+
+pip install -r requirements.txt
+
+------------------------------------------------------------------------------------
+
+# Core libraries
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Google Generative AI client for Gemini API
+google-generativeai==0.3.1
+
+# Chainlit for chatbot interface
+chainlit==1.2.0
+
+# Ollama Python integration (if using official client)
+ollama==0.1.0
+
+# Async HTTP requests
+aiohttp==3.8.5
+
+# JSON handling
+json5==0.9.14
+
+# Numerical computations for technical/mathematical queries
+numpy==1.26.0
+
+# OS utilities for cross-platform support
+os-sys==0.1.4
+
+
