@@ -25,28 +25,24 @@ This project involves the development of a hybrid AI-powered chatbot that integr
 git clone <repository-url>
 
 
-2. Navigate to the project directory:
-
-cd gemini-chatbot
-
-
-3. Install dependencies:
+2. Install dependencies:
 
 pip install -r requirements.txt
 
 
-4. Set up the .env file and add your Gemini API key:
+3. Add your Gemini API key:
 
 GEMINI_API_KEY=<your_api_key>
 
 
-5. Start the Ollama server locally:
+4. Start the Ollama server locally:
 
 ollama serve
 
 
-6. Run the chatbot using chainlit:
+5. Run the chatbot using chainlit:
 
 chainlit run main.py
+
 
 
